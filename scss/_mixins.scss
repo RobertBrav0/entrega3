@@ -1,0 +1,9 @@
+@mixin borderRadius($radius1,$radius2){
+    border-top-radius: $radius1;
+    border-bottom-radius:$radius2;
+    border:solid red 1px;
+}
+
+// div{
+//     @include borderRadius(10px,20px)
+// }

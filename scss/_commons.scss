@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.boxGral{
+    width: 99%;
+    margin: auto;
+    padding: 20px 50px;
+}
+
+//llamamos un mixin
+// div{
+//     @include borderRadius(10px,20px);
+//     background-color: red;
+// }
+
+//extendemos una clase
+
+.boxGralDark{
+    @extend .boxGral;
+    background-color: rgb(68, 65, 65);
+}
+
+nav{
+    height: 10vh;
+    background-color: $mainColor;
+}
